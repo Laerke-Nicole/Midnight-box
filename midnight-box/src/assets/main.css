@@ -1,0 +1,79 @@
+@import './base.css';
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&display=swap');
+
+
+@theme {
+  --color-primary: #251C4B;
+  --color-secondary: #D4C5FF;
+  --color-tertiary: #8BC9E8;
+
+  --color-white-text: #D9D9D9;
+  --color-black-text: #434343;
+}
+
+
+@font-face {
+  font-family: "kalnia"; 
+  src: url("./fonts/Kalnia.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@layer base {
+  h1 {
+    font-size: 56px;
+    font-family: "Kalnia", serif;
+    font-weight: 600;
+  }
+  h2 {
+    font-size: 30px;
+    font-family: "Kalnia", serif;
+  }
+  h3 {
+    font-size: 24px;
+    font-family: "Kalnia", serif;
+  }
+  h4 {
+    font-size: 20px;
+    font-family: "Kalnia", serif;
+  }
+
+  p {
+    font-size: 15px;
+  }
+}
+
+
+@layer components {
+  .btn-primary {
+    background-color: var(--color-tertiary);
+    border-radius: 15px;
+    padding: 8px 20px;
+    font-size: 15px;
+    box-shadow: var(--shadow-xl);
+  }
+
+  .container {
+    padding: 60px 7%;
+  }
+
+  .wave-section {
+    position: relative;
+  }
+
+  .wave {
+    position: absolute;
+    left: 0;
+    width: 100%;
+  }
+  .wave-bottom {
+    bottom: -1px;
+  }
+}
+
+
+@utility seven-percent {
+  padding: 0 7%;
+}
