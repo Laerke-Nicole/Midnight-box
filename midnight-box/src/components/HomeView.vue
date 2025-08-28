@@ -74,7 +74,7 @@
                 <h2>Subscription boxes</h2>
                 <img src="" alt="">
             </div>
-    
+
             <div>
                 <div>
                     <img src="" alt="">
@@ -110,26 +110,140 @@
 
     <section class="bg-tertiary">
         <div class="container">
-            <div>
-                <span>Take a look at</span>
-                <h4>Previous boxes</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque augue lorem, molestie non luctus eget, vulputate eget eros. Vestibulum rutrum, purus vitae tincidunt imperdiet, nunc turpis bibendum nisl, in bibendum nibh magdictum ante.</p>
-            </div>
-    
-            <div>
-                swiper stuff
-            </div>
-        </div>
-    </section>
-
-    <section class="bg-tertiary">
-        <div class="container">
             <img src="" alt="">
             <h2>What our customers say</h2>
             <p>Jeg har lige modtaget min pakke og de er smpelhen bare så flotte de bøger herJeg har lige modtaget min pakke og de er smpelhen bare så flotte de bøger herJeg har lige modtaget min pakke og de er smpelhen bare så flotte de bøger herJeg har lige modtaget min pakke og de er smpelhen bare så flotte de bøger herJeg har lige modtaget min pakke og de er smpelhen bare så flotte de bøger herJeg har lige modtaget min pakke og de er smpelhen bare så flotte de bøger herJeg har lige modtaget min pakke og de er smpelhen bare så flotte de bøger her</p>
             <p>Jane doe, <span class="font-bold">Young adult</span></p>
             <img src="" alt="">
         </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- subpage -->
+    <section>
+      <div>
+        <div>
+          <img src="" alt="">
+        </div>
+
+        <div>
+          <span>Subscription for</span>
+          <h3>Adult fantasy</h3>
+          <p>Lorem ipsum lorem ipsumLorem ipsum lorem ipsumLorem ipsum lorem ipsum</p>
+          <div>
+            <ul>
+              <li>✓ Hardcover adult fantasy book + 4 themed items</li>
+              <li>✓ Ships towards the end of each month</li>
+              <li>✓ Auto-renews monthly</li>
+              <li>✓ Cancel anytime</li>
+            </ul>
+          </div>
+          <button>Sign up</button>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h4>Why choose Midnight Box?</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque augue lorem, molestie non luctus eget, vulputate eget eros.
+        Vestibulum rutrum, purus vitae tincidunt imperdiet, nunc turpis bibendum nisl, in bibendum nibh magna at odio.
+        Nam condimentum arcu ipsum, ac efficitur orci dapibus nec. Praesent at tincidunt nisi.
+        Donec tortor elit, fringilla cursus leo et, bibendum vestibulum lorem. Morbi ac maximus dolor.
+        Nulla ut elit molestie, sagittis tellus sed, dictum ante. Maecenas eget libero a nulla efficitur fringilla.
+        Nunc vitae erat tortor. Mauris eget cursus magna, quis dignissim orci.</p>
+    </section>
+
+    <section class="bg-tertiary">
+      <div class="container">
+        <div>
+          <span>Take a look at</span>
+          <h4>Previous boxes</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque augue lorem, molestie non luctus eget, vulputate eget eros. Vestibulum rutrum, purus vitae tincidunt imperdiet, nunc turpis bibendum nisl, in bibendum nibh magdictum ante.</p>
+        </div>
+
+        <div>
+          swiper stuff
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h4>Interested in something else?</h4>
+      <div>
+        <div>
+          <div>
+            <h5>Young adult fantasy</h5>
+            <span>€30 /month</span>
+            <p>If you are into books about character development as a kid.</p>
+          </div>
+
+          <div>
+            <button>See details</button>
+            <img src="" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- contact -->
+    <section>
+      <h4>FAQ</h4>
+      <div>
+        <div>
+          <span>When can i expect to receive my box?</span>
+          <img src="" alt="">
+        </div>
+      </div>
     </section>
 </template>
 
@@ -139,7 +253,7 @@
 
 <style scoped>
 .hero {
-  position: relative; 
+  position: relative;
   background-image: url('../assets/images/hero.jpeg');
   background-size: cover;
   background-position: center;
